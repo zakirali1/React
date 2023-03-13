@@ -1,42 +1,9 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url('./images/template-orange.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 .projects {
   display:flex;
@@ -58,4 +25,25 @@
 .project-text {
   text-align: center;
 }
+
+
+.img-vsc {
+ text-align:right;
+  
+  
+
+}
+
+.img-vsc > img {
+ display: inline-block;
+  width: 600px;
+  height: 600px;
+   /* add some margin to prevent text from overlapping */
+  
+}
+
+.jumbotron {
+ 
+}
+
 

@@ -1,16 +1,20 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
+import vsc from './images/vsc.svg'
 
 function Home() {
   return (
     <div>
-      <div className="jumbotron">
-  <h1 className="display-4">Hello, world!</h1>
-  <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <div className="jumbotron" style={{ backgroundColor: 'black', color: 'white'}}>
+  <h1 className="display-4">Hi, I'm Zakir</h1>
+  <p className="lead">Welcome!</p>
   <hr className="my-4" />
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <NavLink to="/Projects" className="btn btn-primary btn-lg" role="button">Hire Me</NavLink>
+  <p>I am a front-end developer</p>
+  <NavLink to="https://drive.google.com/file/d/1yus-vtllPinCTGIpaoDtEWJEYvW_7dUa/view?usp=sharing" className="btn btn-primary btn-lg" role="button">CV</NavLink>
 </div>
+{/* <div className="img-vsc">
+<img  src={vsc} alt="" />
+</div> */}
     </div>
   )
 }

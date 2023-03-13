@@ -8,7 +8,7 @@ function Header() {
   return (
 
     <div>
-    <nav className="navbar navbar-light bg-light justify-content-end">
+    <nav className="navbar navbar-light justify-content-end header-menu">
   {/* <a className="navbar-brand" */}
    
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
