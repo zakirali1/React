@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+.projects {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.project-card {
+ display:flex;
+  width: 600px;
+  height: 600px;
+  text-align:center;
+  justify-content: center;
+  flex-grow: 1;
+  
+}
+
+.project-text {
+  text-align: center;
+}

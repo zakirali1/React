@@ -23,7 +23,7 @@ function Header() {
         isActive ? "nav-link active" : "nav-link" 
       }
       >
-        Home<span class="sr-only">(current)</span>
+        Home
         </NavLink>
         <NavLink 
         to="projects"
