@@ -10,8 +10,8 @@ const outputPath = path.join(__dirname, 'generate.json');
     const data = [{
         id: 0,
         title: 'Generate-ReadMe',
-        pages: "",
-        code: "",
+        pages: "https://drive.google.com/file/d/1bxFeSJht_5-EF06Z2x4wKkrM21Z0VaJP/view",
+        code: "https://github.com/zakirali1/ReadMe-Generator",
         src: './images/rm.png'
     },
      

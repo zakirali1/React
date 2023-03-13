@@ -48,14 +48,19 @@
 
 .project-card {
  display:flex;
-  width: 600px;
-  height: 600px;
-  text-align:center;
   justify-content: center;
-  flex-grow: 1;
+  text-align:center;
+  
+  
   
 }
 
 .project-text {
   text-align: center;
+}
+
+.what {
+  display:flex;
+justify-content: center;
+align-items:center;
 }
