@@ -31,7 +31,7 @@ function Projects2() {
   const ProjectDetails = ({ project, index }) => (
     
     <div className="project-card">
-      <Col key={project.id} md={6} className="mb-4 justify-content-md-center">
+      <Col key={project.id} md={6} className="mb-4">
         <NavLink to={`/projects/${project.id}`}>
           <Card>
             <Card.Img variant="top" src={genImage(project.id)} />
