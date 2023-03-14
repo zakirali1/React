@@ -8,6 +8,7 @@ import './contacts.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Contacts() {
   const [showModal, setShowModal] = useState(false);
@@ -17,7 +18,7 @@ function Contacts() {
 
   return (
     <div className="page-container">
-      <h1 style={{textAlign: 'center'}}> Sign up to follow my coding journey!</h1>
+      <h1 style={{textAlign: 'center', fontSize: "3rem"}}> Sign up to follow my coding journey!</h1>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
@@ -47,7 +48,7 @@ function Contacts() {
 
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Thanks!</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <p>You're all signed up!</p>
@@ -73,6 +74,11 @@ function Contacts() {
         <div>
         <NavLink to="mailto: zakir@hotmail.com">
         <FontAwesomeIcon icon={faEnvelope} size='6x' className="icons"  />
+        </NavLink>
+        </div>
+        <div>
+        <NavLink to="https://www.linkedin.com/in/zakir-ali-ccnp-r-s-itilv3-45097356/">
+        <FontAwesomeIcon icon={faLinkedin} size='6x' className="icons"  />
         </NavLink>
         </div>
         

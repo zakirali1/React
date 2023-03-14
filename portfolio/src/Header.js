@@ -8,7 +8,7 @@ function Header() {
   return (
 
     <div>
-    <nav className="navbar navbar-light justify-content-end header-menu">
+    <nav className="navbar navbar-light justify-content-end header-menu" style={{borderStyle: "3px solid black"}}>
   {/* <a className="navbar-brand" */}
    
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

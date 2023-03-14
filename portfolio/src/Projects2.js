@@ -28,6 +28,7 @@ function Projects2() {
   };
 
   const ProjectDetails = ({ project, index }) => (
+    
     <div className="project-card">
       <Col key={project.id} md={6} className="mb-4">
         <NavLink to={`/projects/${project.id}`}>
@@ -44,6 +45,8 @@ function Projects2() {
         </NavLink>
       </Col>
     </div>
+   
+  
   );
 
   const listItems = data.map((project, index) => (
@@ -52,6 +55,7 @@ function Projects2() {
 
   return (
     <div className="projects">
+      <h1>Project Gallery</h1>
       <Row>{listItems}</Row>
     </div>
   );

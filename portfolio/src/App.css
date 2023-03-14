@@ -1,9 +1,18 @@
 
 body {
-  background-image: url('./images/template-orange.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  
 }
+
+h1, p {
+  font-family: 'Passion One', cursive;
+}
+
+p{
+  font-size: 1.5rem
+}
+
 
 .projects {
   display:flex;
@@ -29,6 +38,8 @@ body {
 
 .img-vsc {
  text-align:right;
+ padding: 25px;
+ margin-bottom: 25px;
   
   
 
@@ -36,14 +47,17 @@ body {
 
 .img-vsc > img {
  display: inline-block;
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
+  
    /* add some margin to prevent text from overlapping */
+   
   
 }
 
 .jumbotron {
- 
+  background-color: none;
 }
+
 
 
