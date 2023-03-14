@@ -19,10 +19,11 @@ function App() {
       <Router>
         <div>
         <Header />
+    
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path='/Projects/:id' element={<ProjectDetails />} />
           <Route path='/Contacts' element={<Contacts />} />
