@@ -8,7 +8,6 @@ import quiz from './images/quiz.png';
 import passwrd from './images/passwordgen.png';
 import scheduler from './images/scheduler.png';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import {NavLink} from 'react-router-dom'
 
  const images = [readgen, movie, wd, quiz, passwrd, scheduler]

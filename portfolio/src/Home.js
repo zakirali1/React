@@ -1,6 +1,5 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
-import vsc from './images/vsc.svg';
 import grapf from './images/NewProject1.svg';
 
 
@@ -24,7 +23,7 @@ function Home() {
       </footer>
     </div>
    
-  )
+  );
 }
 
 export default Home
