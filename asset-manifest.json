@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React/portfolio/static/css/main.ca6d5488.css",
-    "main.js": "/React/portfolio/static/js/main.389c977f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/React/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/movie.png": "/React/portfolio/static/media/movie.66c122772d076660caf7.png",
-    "static/media/wd.png": "/React/portfolio/static/media/wd.57ee985c51b33fa057ba.png",
-    "static/media/rm.png": "/React/portfolio/static/media/rm.5f3c3e3b1fbb75ba312d.png",
-    "static/media/scheduler.png": "/React/portfolio/static/media/scheduler.1b361c547f43511098e2.png",
-    "static/media/quiz.png": "/React/portfolio/static/media/quiz.132f5c3b5d312baf9cdb.png",
-    "static/media/NewProject1.svg": "/React/portfolio/static/media/NewProject1.40ecd962b8b1d5240757c5225c633ee7.svg",
-    "static/media/passwordgen.png": "/React/portfolio/static/media/passwordgen.066eeb41730d6f81fd88.png",
-    "index.html": "/React/portfolio/index.html",
-    "main.ca6d5488.css.map": "/React/portfolio/static/css/main.ca6d5488.css.map",
-    "main.389c977f.js.map": "/React/portfolio/static/js/main.389c977f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/React/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/React/static/css/main.ca6d5488.css",
+    "main.js": "/React/static/js/main.6dc7c560.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React/static/js/787.1ed0c42c.chunk.js",
+    "static/media/movie.png": "/React/static/media/movie.66c122772d076660caf7.png",
+    "static/media/wd.png": "/React/static/media/wd.57ee985c51b33fa057ba.png",
+    "static/media/rm.png": "/React/static/media/rm.5f3c3e3b1fbb75ba312d.png",
+    "static/media/scheduler.png": "/React/static/media/scheduler.1b361c547f43511098e2.png",
+    "static/media/quiz.png": "/React/static/media/quiz.132f5c3b5d312baf9cdb.png",
+    "static/media/NewProject1.svg": "/React/static/media/NewProject1.40ecd962b8b1d5240757c5225c633ee7.svg",
+    "static/media/passwordgen.png": "/React/static/media/passwordgen.066eeb41730d6f81fd88.png",
+    "index.html": "/React/index.html",
+    "main.ca6d5488.css.map": "/React/static/css/main.ca6d5488.css.map",
+    "main.6dc7c560.js.map": "/React/static/js/main.6dc7c560.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca6d5488.css",
-    "static/js/main.389c977f.js"
+    "static/js/main.6dc7c560.js"
   ]
 }
