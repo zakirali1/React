@@ -29,7 +29,7 @@ function Projects2() {
 
   const ProjectDetails = ({ project, index }) => (
     
-    <div className="project-card">
+    <div className="project-card" style={{justifyContent: 'center'}}>
       <Col key={project.id} md={6} className="mb-4">
         <NavLink to={`/projects/${project.id}`}>
           <Card>
